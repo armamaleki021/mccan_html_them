@@ -20,7 +20,17 @@
 
 
 /* 01. Google Font */
-@import url('https://fonts.googleapis.com/css?family=Oswald:400,500|Rambla:400,700');
+/* @import url('https://fonts.googleapis.com/css?family=Oswald:400,500|Rambla:400,700'); */
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'rambla';
+	src:url('../fonts/iranyekanwebregular.woff');
+	src:url('../fonts/iranyekan.eot') format('embedded-opentype'),
+		url('../fonts/iranyekan.woff') format('woff'),
+		url('../fonts/iranyekan.ttf') format('truetype'),
+		
+}
 
 /* 02. General Settings */
 
@@ -1809,7 +1819,7 @@ input[type="checkbox"] {
     text-decoration: none;
     position: relative;
     padding: 0;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'rambla', sans-serif;
     font-weight: 400;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -2462,7 +2472,7 @@ input[type="checkbox"] {
 
 .additional-menu-content .title {
     color: #fff;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'rambla', sans-serif;
     margin-bottom: 20px;
     font-weight: 500;
     font-size: 30px;
@@ -2472,7 +2482,7 @@ input[type="checkbox"] {
 }
 
 .additional-menu-content .title-small {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'rambla', sans-serif;
     font-size: 12px;
     text-transform: uppercase;
     color: #F68338;
@@ -2631,7 +2641,7 @@ input[type="checkbox"] {
 
 .my-info h6 {
     margin: 0;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'rambla', sans-serif;
     font-size: 15px;
     font-weight: 400;
     color: #fff;
@@ -3088,7 +3098,7 @@ input[type="checkbox"] {
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 400;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'rambla', sans-serif;
     background: #F68338;
     letter-spacing: 2px;
     color: #fff;
@@ -3262,7 +3272,7 @@ input[type="checkbox"] {
 
 .content-wrap .title {
     color: #fff;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'rambla', sans-serif;
     margin-bottom: 20px;
     font-weight: 500;
     font-size: 30px;
@@ -3274,7 +3284,7 @@ input[type="checkbox"] {
 
 .content-wrap .title-small {
     display: block;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'rambla', sans-serif;
     font-size: 12px;
     text-transform: uppercase;
     color: #F68338;
@@ -3349,7 +3359,7 @@ input[type="checkbox"] {
 }
 
 .header .meta-data > span:before {
-    content: 'â€”';
+    content: '”$”';
     display: inline-block;
     margin: 0 .6rem 0 .4rem;
     color: #F68338;
